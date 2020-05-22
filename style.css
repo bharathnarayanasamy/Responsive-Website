@@ -1,0 +1,65 @@
+@media screen and (min-width: 601px){
+  body {
+    font-size: 30px;
+  }
+  header{
+  	font-size: 50px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 20px;
+  }
+  header{
+  	font-size: 30px;
+  }
+}
+body{
+	margin:0;
+	padding: 0;
+	font-family: 'Zilla Slab';
+}
+header{
+	border:5px solid #1d3557;
+	border-radius:2.5%;
+	height:auto;
+	text-align:center;
+	margin-top: 2%;
+}
+.para{
+	margin: 0px 1% 0px 1%;
+}
+.ingredients h2,.steps h2{
+	margin: 0px;
+	padding: 0px;
+	border:0px;
+	text-align:center;
+	color:#a8dadc;
+}
+.ingredients h2:hover,.steps h2:hover{
+	color:#1d3557;
+	font-family: 'Piedra';
+	cursor: pointer;
+}
+.ingredients ul{
+	list-style: none;
+}
+.ingredients li:before{
+	content: '\1F590';
+
+}
+.steps ol{
+	margin: 1% 1% 0px 2%;
+}
+.final{
+	text-align:center;
+	color:#1d3557;
+}
+.final img{
+	width: 75%;
+	max-width:100%;
+	height:auto;
+	margin-bottom:4%;
+}
